@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag" : "greeting",
+      "patterns" : [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Hello",
+        "Good day"
+      ],
+      "responses" : [
+        "Hey welcome to the 19TH SCENTS&MORE ",
+        "Hello, welcome to the 19TH SCENTS&MORE ",
+        "Hi there,welcome to the 19TH SCENTS&MORE what can I do for you? "
+
+      ]
+    },
+    {
+      "tag" : "goodbye",
+      "patterns" : ["Bye","See you later","Goodbye","okay"],
+      "responses" : [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon"
+      ]
+    },
+    {
+      "tag" : "thanks",
+      "patterns" : ["Thanks","Thank you","That's helpful","alright"],
+      "responses" : ["Happy to help!","Any time!","You are welcome"]
+    },
+    {
+      "tag" : "items",
+      "patterns" : [
+        "Which items do you have?",
+          "Which items can i get?",
+        "What items do you sell? ",
+        "What do you do?",
+        "What about wristwatch? ",
+        "What is available?"
+      ],
+      "responses" : [
+        "We sell confidence through perfumes,clothes and jewelries and wristwatches",
+
+        "We sell elegance through perfumes,clothes , jewelries and all sort of fashionable items which also include wristwatches."
+      ]
+    },
+    {
+      "tag" : "payment",
+      "patterns" : [
+        "How do i make payment?",
+        "Do you accept mobile transfer?",
+        "How can I pay? "
+
+      ],
+      "responses" : [
+        "We accept mobile transfer and you send us a receipt as evidence of payment",
+        "Yes, we accept mobile transfer"
+      ]
+    },
+    {
+      "tag" : "installment",
+      "patterns" : [
+        "Can I pay in installments?",
+        "Can I pay twice? "
+      ],
+      "responses" : [
+        "We accept installments,you can pick up your package once your payment is complete.",
+        "We deliver your package ,once payment is complete."
+      ]
+    },
+    {
+      "tag" : "delivery",
+      "patterns" : [
+        "How long does delivery take?",
+         "Where are you located?",
+
+        "Where is your location?",
+
+        "What about delivery?"
+
+
+      ],
+      "responses" : [
+
+        "We are located in Ibadan, Abeokuta and ILE-IFE, your location determines the delivery fee"
+
+      ]
+    },
+    {
+      "tag" : "fun",
+      "patterns" : [
+        "Tell me a joke",
+        "Tell me something funny",
+        "Do you know a joke?"
+      ],
+      "responses" : [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool",
+        "What did the buffalo say when his son left for college? Bison"
+      ]
+    },
+    {
+       "tag" : "recommendations",
+      "patterns" : [
+        "Can you recommend  a perfume for me? ",
+        "Can i see samples of wristwatch you have?",
+        "Can I get pictures of available items?",
+        "Can I get some samples?",
+        "How do I get it?",
+        "How do I get it?",
+        "How can I get it?"
+      ],
+      "responses" : [
+        "We have what you want, reach out to us through the link below "
+
+      ]
+
+    }
+
+
+  ]
+
+
+}
